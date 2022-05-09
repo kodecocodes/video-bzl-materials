@@ -1,0 +1,55 @@
+<!--
+  ~ Copyright (c) 2022 Razeware LLC
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
+  ~ distribute, sublicense, create a derivative work, and/or sell copies of the
+  ~ Software in any work that is designed, intended, or marketed for pedagogical or
+  ~ instructional purposes related to programming, coding, application development,
+  ~ or information technology.  Permission for such use, copying, modification,
+  ~ merger, publication, distribution, sublicensing, creation of derivative works,
+  ~ or sale is expressly withheld.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Bullseye</string>
+    <string name="result_dialog_title">Hello there!</string>
+    <string name="result_dialog_message">The slider\'s value is %1$d.\nYou scored %2$d points this round.</string>
+    <string name="result_dialog_button_text">Awesome!</string>
+    <string name="instruction_text">Put the BullsEye as close as you can to</string>
+    <string name="hit_me_button_text">Hit me</string>
+    <string name="score_label">Score</string>
+    <string name="current_round_label">Round</string>
+    <string name="info">info</string>
+    <string name="start_over">Start Over</string>
+    <string name="min_value_text">1</string>
+    <string name="max_value_text">100</string>
+    <string name="target_value_text">67</string>
+    <string name="about_title_text">🎉 Bullseye 🎉\'</string>
+    <string name="about_bullseye_text">This is Bullseye, the game where you can win points and earn fame by dragging a slider.\nYour goal is to place the slider as close as possible to the target value. The closer you are, the more points you score.\nEnjoy!</string>
+    <string name="back_button_text">Go Back!</string>
+    <string name="about_page_title">About BullsEye</string>
+    <string name="alert_title_1">Perfect!</string>
+    <string name="alert_title_2">You almost had it!</string>
+    <string name="alert_title_3">Not bad.</string>
+    <string name="alert_title_4">Are you even trying?</string>
+    <string name="about_btn_desc">Go to About Page</string>
+    <string name="restart_btn_desc">Restart Game</string>
+</resources>

@@ -1,0 +1,8 @@
+# Create a variable
+build_name = "JokeGenerator"
+
+# Print to the console
+print(build_name)
+
+load("functions.bzl", "get_joke_policy")
+print(get_joke_policy(build_name))

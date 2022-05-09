@@ -1,2 +1,0 @@
-build:d8 --define=android_dexmerger_tool=d8_dexmerger
-build:d8 --nouse_workers_with_dexbuilder
