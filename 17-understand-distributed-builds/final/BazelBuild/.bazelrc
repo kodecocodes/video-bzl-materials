@@ -1,0 +1,17 @@
+build:dex --define=android_dexmerger_tool=d8_dexmerger
+build:dex --nouse_workers_with_dexbuilder
+
+build --bes_results_url=https://app.buildbuddy.io/invocation/
+build --bes_backend=grpcs://remote.buildbuddy.io
+build --remote_header=x-buildbuddy-api-key=k82NfblAn3OqK0Y1TneS
+
+build --remote_executor=grpcs://remote.buildbuddy.io
+build --remote_timeout=3600
+build:remote --jobs=1000
+build:remote --host_cpu=k8
+build:remote --cpu=k8
+build:remote --crosstool_top=@buildbuddy_toolchain//:ubuntu1604_cc_toolchain_suite
+build:remote --host_platform=@buildbuddy_toolchain//:platform_linux
+build:remote --extra_toolchains=@buildbuddy_toolchain//:ubuntu1604_cc_toolchain
+build:remote --nojava_header_compilation
+build:remote --define=EXECUTOR=remote

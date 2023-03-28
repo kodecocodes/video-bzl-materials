@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C4021CFC21DFA630C273EDC /* Bazel Dependencies */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA9BF94C166520644D95FF69 /* Build configuration list for PBXAggregateTarget "Bazel Dependencies" */;
+			buildPhases = (
+				42BC39215E4E7F81B6D6FC3D /* Generate Files */,
+				563026F617D339B7AE13557A /* Copy Files */,
+				297C6660D6BE54D38AFCD19C /* Fix Info.plists */,
+			);
+			dependencies = (
+			);
+			name = "Bazel Dependencies";
+			productName = "Bazel Dependencies";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09F4C352E3768FBF51705EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6814BDEB93F411CCBE32CB3 /* Assets.xcassets */; };
+		256504A48E435CF6BF6B79AD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03679520F3CE61F5576287E /* BackgroundView.swift */; };
+		2C0614CCCC480FD3DBC978C8 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74699D3AE4CBC15BCDF034B /* BullseyeApp.swift */; };
+		2FEB2053F0549B8A344CBBCE /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CCB55F3F06607FEA34E9E7 /* Shapes.swift */; };
+		4B7C4C63D864C0660A57A5AC /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79081D449939BA8BF67108BA /* PointsView.swift */; };
+		7E240232503004D4B0F1A52B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D306C858ADB3ABA1401F2 /* ContentView.swift */; };
+		824AF7C40D1CAE1F874A17D4 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892F2A7511D0888C03A1DA1 /* TextViews.swift */; };
+		ADA1BC47447EC152AC1FE4B9 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F59569BBCF5BE3055DEF8CE /* RoundViews.swift */; };
+		CE5F658E75A3CA1D44F3655C /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949BDB709A77E7613AADF7FA /* LeaderboardView.swift */; };
+		D54731B7397DCF018F1E5AAB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C6CE9C599C2B623BD7F49 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68165DD4C9792BB244C51343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030B295CDA880462AFDA27CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4021CFC21DFA630C273EDC;
+			remoteInfo = "Bazel Dependencies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3AB7C6B55540B1C11D3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F34F997E312EBD6D0CE3462 /* yourfirstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yourfirstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466D306C858ADB3ABA1401F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5892F2A7511D0888C03A1DA1 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		64ADCFCC3FC55ECAAEC36B77 /* BUILD */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUILD; sourceTree = "<group>"; };
+		6F59569BBCF5BE3055DEF8CE /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
+		79081D449939BA8BF67108BA /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		7ABD923C670909A1FB8191CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		949BDB709A77E7613AADF7FA /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		B03679520F3CE61F5576287E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		B03C6CE9C599C2B623BD7F49 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C6814BDEB93F411CCBE32CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74699D3AE4CBC15BCDF034B /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
+		F1CCB55F3F06607FEA34E9E7 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E8C03A752B5BF8C18A43253 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C6814BDEB93F411CCBE32CB3 /* Assets.xcassets */,
+				0A3AB7C6B55540B1C11D3470 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		301A12B31618CB6CDFA55FCA /* Bazel Generated Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FFDE46C3E66E5BFFD4B73 /* applebin_ios-ios_x86_64-fastbuild-ST-67e90b6cfecd */,
+			);
+			name = "Bazel Generated Files";
+			path = "Bullseye-iOS/Bullseye.xcodeproj/rules_xcodeproj/links/gen_dir";
+			sourceTree = "<group>";
+		};
+		579C878FAA0A39E97E31BE2F = {
+			isa = PBXGroup;
+			children = (
+				6C189A65B6AF4B799CE5B01D /* Bullseye-iOS */,
+				301A12B31618CB6CDFA55FCA /* Bazel Generated Files */,
+				F5E37BC358809D328C509721 /* Products */,
+				F6844BFD035871C2AD6D4762 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C189A65B6AF4B799CE5B01D /* Bullseye-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE34D2661F687FCC506C9B86 /* Bullseye */,
+				64ADCFCC3FC55ECAAEC36B77 /* BUILD */,
+			);
+			path = "Bullseye-iOS";
+			sourceTree = "<group>";
+		};
+		8B353986812DE4E30E4138CA /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				F9A3FA5FFFFCC0497D3FAA31 /* Bullseye-iOS */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		BE34D2661F687FCC506C9B86 /* Bullseye */ = {
+			isa = PBXGroup;
+			children = (
+				1E8C03A752B5BF8C18A43253 /* App */,
+				EA8E81F8CB6DFB94700A5CA0 /* Sources */,
+			);
+			path = Bullseye;
+			sourceTree = "<group>";
+		};
+		D1A8C8A6F68FF4B687BD81CA /* yourfirstapp-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD923C670909A1FB8191CF /* Info.plist */,
+			);
+			path = "yourfirstapp-intermediates";
+			sourceTree = "<group>";
+		};
+		EA8E81F8CB6DFB94700A5CA0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B03679520F3CE61F5576287E /* BackgroundView.swift */,
+				C74699D3AE4CBC15BCDF034B /* BullseyeApp.swift */,
+				466D306C858ADB3ABA1401F2 /* ContentView.swift */,
+				B03C6CE9C599C2B623BD7F49 /* Game.swift */,
+				949BDB709A77E7613AADF7FA /* LeaderboardView.swift */,
+				79081D449939BA8BF67108BA /* PointsView.swift */,
+				6F59569BBCF5BE3055DEF8CE /* RoundViews.swift */,
+				F1CCB55F3F06607FEA34E9E7 /* Shapes.swift */,
+				5892F2A7511D0888C03A1DA1 /* TextViews.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F5E37BC358809D328C509721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F34F997E312EBD6D0CE3462 /* yourfirstapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6844BFD035871C2AD6D4762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A3FA5FFFFCC0497D3FAA31 /* Bullseye-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1A8C8A6F68FF4B687BD81CA /* yourfirstapp-intermediates */,
+			);
+			path = "Bullseye-iOS";
+			sourceTree = "<group>";
+		};
+		FA0FFDE46C3E66E5BFFD4B73 /* applebin_ios-ios_x86_64-fastbuild-ST-67e90b6cfecd */ = {
+			isa = PBXGroup;
+			children = (
+				8B353986812DE4E30E4138CA /* bin */,
+			);
+			path = "applebin_ios-ios_x86_64-fastbuild-ST-67e90b6cfecd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C409E02CA6FD3700D544BE0 /* yourfirstapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C2C9217B278E69352F4AF8E /* Build configuration list for PBXNativeTarget "yourfirstapp" */;
+			buildPhases = (
+				B27B744F33BC7B827C27C313 /* Sources */,
+				D4A1AA1E4209AF487F43809E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE97259ED69F4403B5CED6F /* PBXTargetDependency */,
+			);
+			name = yourfirstapp;
+			productName = yourfirstapp;
+			productReference = 1F34F997E312EBD6D0CE3462 /* yourfirstapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030B295CDA880462AFDA27CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0C409E02CA6FD3700D544BE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					4C4021CFC21DFA630C273EDC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A098966EEA001BBD78318BBA /* Build configuration list for PBXProject "Bullseye" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579C878FAA0A39E97E31BE2F;
+			productRefGroup = F5E37BC358809D328C509721 /* Products */;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				4C4021CFC21DFA630C273EDC /* Bazel Dependencies */,
+				0C409E02CA6FD3700D544BE0 /* yourfirstapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A1AA1E4209AF487F43809E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F4C352E3768FBF51705EAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297C6660D6BE54D38AFCD19C /* Fix Info.plists */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(INTERNAL_DIR)/infoplists.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "Fix Info.plists";
+			outputFileListPaths = (
+				"$(INTERNAL_DIR)/infoplists.fixed.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\nwhile IFS= read -r input; do\n  output=\"${input%.plist}.xcode.plist\"\n  cp \"$input\" \"$output\"\n  plutil -remove UIDeviceFamily \"$output\" || true\ndone < \"$SCRIPT_INPUT_FILE_LIST_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42BC39215E4E7F81B6D6FC3D /* Generate Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Files";
+			outputFileListPaths = (
+				"$(INTERNAL_DIR)/generated.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\nif [ \"$ACTION\" == \"indexbuild\" ]; then\n  # We use a different output base for Index Build to prevent normal builds and\n  # indexing waiting on bazel locks from the other\n  output_base=\"$OBJROOT/bazel_output_base\"\nfi\n\noutput_path=$(env -i \\\n  DEVELOPER_DIR=\"$DEVELOPER_DIR\" \\\n  HOME=\"$HOME\" \\\n  PATH=\"${PATH//\\/usr\\/local\\/bin//opt/homebrew/bin:/usr/local/bin}\" \\\n  USER=\"$USER\" \\\n  \"$BAZEL_PATH\" \\\n  ${output_base:+--output_base \"$output_base\"} \\\n  info \\\n  --experimental_convenience_symlinks=ignore \\\n  output_path)\nexternal=\"${output_path%/*/*/*}/external\"\n\n# We only want to modify `$LINKS_DIR` during normal builds since Indexing can\n# run concurrent to normal builds\nif [ \"$ACTION\" != \"indexbuild\" ]; then\n  mkdir -p \"$LINKS_DIR\"\n  cd \"$LINKS_DIR\"\n\n  # Add BUILD and DONT_FOLLOW_SYMLINKS_WHEN_TRAVERSING_THIS_DIRECTORY_VIA_A_RECURSIVE_TARGET_PATTERN\n  # files to the internal links directory to prevent Bazel from recursing into\n  # it, and thus following the `external` symlink\n  touch BUILD\n  touch DONT_FOLLOW_SYMLINKS_WHEN_TRAVERSING_THIS_DIRECTORY_VIA_A_RECURSIVE_TARGET_PATTERN\n\n  # Need to remove the directories that Xcode creates as part of output prep\n  rm -rf external\n  rm -rf gen_dir\n\n  ln -sf \"$external\" external\n  ln -sf \"$BUILD_DIR/bazel-out\" gen_dir\nfi\n\ncd \"$BUILD_DIR\"\n\nrm -rf external\nrm -rf real-bazel-out\n\nln -sf \"$external\" external\nln -sf \"$output_path\" real-bazel-out\nln -sfn \"$PROJECT_DIR\" SRCROOT\n\n# Create parent directories of generated files, so the project navigator works\n# better faster\n\nmkdir -p bazel-out\ncd bazel-out\n\nsed 's|\\/[^\\/]*$||' \\\n  \"$INTERNAL_DIR/generated.rsynclist\" \\\n  | uniq \\\n  | while IFS= read -r dir\ndo\n  mkdir -p \"$dir\"\ndone\n\ncd \"$SRCROOT\"\n\ndate +%s > \"$INTERNAL_DIR/toplevel_cache_buster\"\n\nenv -i \\\n  DEVELOPER_DIR=\"$DEVELOPER_DIR\" \\\n  HOME=\"$HOME\" \\\n  PATH=\"${PATH//\\/usr\\/local\\/bin//opt/homebrew/bin:/usr/local/bin}\" \\\n  USER=\"$USER\" \\\n  \"$BAZEL_PATH\" \\\n  ${output_base:+--output_base \"$output_base\"} \\\n  build \\\n  --experimental_convenience_symlinks=ignore \\\n  --output_groups=generated_inputs \\\n  //Bullseye-iOS:xcodeproj\n";
+			showEnvVarsInLog = 0;
+		};
+		563026F617D339B7AE13557A /* Copy Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(INTERNAL_DIR)/generated.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "Copy Files";
+			outputFileListPaths = (
+				"$(INTERNAL_DIR)/generated.copied.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\ncd \"$BAZEL_OUT\"\n\n# Sync to \"$BUILD_DIR/bazel-out\". This is the same as \"$GEN_DIR\" for normal\n# builds, but is different for Index Builds. `PBXBuildFile`s will use the\n# \"$GEN_DIR\" version, so indexing might get messed up until they are normally\n# generated. It's the best we can do though as we need to use the `gen_dir`\n# symlink.\nrsync \\\n  --files-from \"$INTERNAL_DIR/generated.rsynclist\" \\\n  --chmod=u+w \\\n  -L \\\n  . \\\n  \"$BUILD_DIR/bazel-out\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27B744F33BC7B827C27C313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256504A48E435CF6BF6B79AD /* BackgroundView.swift in Sources */,
+				2C0614CCCC480FD3DBC978C8 /* BullseyeApp.swift in Sources */,
+				7E240232503004D4B0F1A52B /* ContentView.swift in Sources */,
+				D54731B7397DCF018F1E5AAB /* Game.swift in Sources */,
+				CE5F658E75A3CA1D44F3655C /* LeaderboardView.swift in Sources */,
+				4B7C4C63D864C0660A57A5AC /* PointsView.swift in Sources */,
+				ADA1BC47447EC152AC1FE4B9 /* RoundViews.swift in Sources */,
+				2FEB2053F0549B8A344CBBCE /* Shapes.swift in Sources */,
+				824AF7C40D1CAE1F874A17D4 /* TextViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE97259ED69F4403B5CED6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bazel Dependencies";
+			target = 4C4021CFC21DFA630C273EDC /* Bazel Dependencies */;
+			targetProxy = 68165DD4C9792BB244C51343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		194AA3E8CCF60F52BF23BA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BAZEL_PACKAGE_BIN_DIR = rules_xcodeproj;
+				INDEX_FORCE_SCRIPT_EXECUTION = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				TARGET_NAME = BazelDependencies;
+			};
+			name = Debug;
+		};
+		56149AAFFE908A727E38DE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BAZEL_EXTERNAL = "$(LINKS_DIR)/external";
+				BAZEL_OUT = "$(BUILD_DIR)/real-bazel-out";
+				BAZEL_PATH = bazel;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_MODULES_AUTOLINK = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(BAZEL_PACKAGE_BIN_DIR)";
+				COPY_PHASE_STRIP = NO;
+				GEN_DIR = "$(LINKS_DIR)/gen_dir";
+				INTERNAL_DIR = "$(PROJECT_FILE_PATH)/rules_xcodeproj";
+				LINKS_DIR = "$(INTERNAL_DIR)/links";
+				ONLY_ACTIVE_ARCH = YES;
+				TARGET_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(BAZEL_PACKAGE_BIN_DIR)/$(TARGET_NAME)";
+				USE_HEADERMAP = NO;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		BC8D5A0E57BC9C88AF6B0712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				BAZEL_PACKAGE_BIN_DIR = "bazel-out/ios-x86_64-min14.0-applebin_ios-ios_x86_64-fastbuild-ST-67e90b6cfecd/bin/Bullseye-iOS";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_FORTIFY_SOURCE=1",
+					DEBUG,
+					"__DATE__=\"redacted\"",
+					"__TIMESTAMP__=\"redacted\"",
+					"__TIME__=\"redacted\"",
+				);
+				INFOPLIST_FILE = "$(BUILD_DIR)/bazel-out/applebin_ios-ios_x86_64-fastbuild-ST-67e90b6cfecd/bin/Bullseye-iOS/yourfirstapp-intermediates/Info.xcode.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-fstack-protector",
+					"-Wall",
+					"-Wthread-safety",
+					"-Wself-assign",
+					"-fno-omit-frame-pointer",
+					"-no-canonical-prefixes",
+					"-pthread",
+					"-no-canonical-prefixes",
+					"-Wno-builtin-macro-redefined",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fstack-protector",
+					"-Wall",
+					"-Wthread-safety",
+					"-Wself-assign",
+					"-fno-omit-frame-pointer",
+					"-no-canonical-prefixes",
+					"-pthread",
+					"-no-canonical-prefixes",
+					"-Wno-builtin-macro-redefined",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-Xcc -fstack-protector -Xcc -Wall -Xcc -Wthread-safety -Xcc -Wself-assign -Xcc -fno-omit-frame-pointer -Xcc -no-canonical-prefixes -Xcc -pthread -Xcc -no-canonical-prefixes -Xcc -Wno-builtin-macro-redefined";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bullseye;
+				PRODUCT_MODULE_NAME = Bullseye;
+				PRODUCT_NAME = yourfirstapp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = yourfirstapp;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C2C9217B278E69352F4AF8E /* Build configuration list for PBXNativeTarget "yourfirstapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8D5A0E57BC9C88AF6B0712 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A098966EEA001BBD78318BBA /* Build configuration list for PBXProject "Bullseye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56149AAFFE908A727E38DE5B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA9BF94C166520644D95FF69 /* Build configuration list for PBXAggregateTarget "Bazel Dependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194AA3E8CCF60F52BF23BA1D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030B295CDA880462AFDA27CA /* Project object */;
+}
